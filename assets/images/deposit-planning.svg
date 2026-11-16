@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="780" viewBox="0 0 720 780" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="80" x2="630" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#f3f0e7"/><stop offset="1" stop-color="#d6d0c1"/></linearGradient>
+    <linearGradient id="red" x1="300" y1="200" x2="470" y2="660" gradientUnits="userSpaceOnUse"><stop stop-color="#f63740"/><stop offset=".5" stop-color="#e30016"/><stop offset="1" stop-color="#a90013"/></linearGradient>
+    <linearGradient id="stone" x1="170" y1="280" x2="360" y2="680" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf5"/><stop offset="1" stop-color="#c9c2ae"/></linearGradient>
+    <linearGradient id="side" x1="390" y1="500" x2="570" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#c1b9a7"/><stop offset="1" stop-color="#aaa38f"/></linearGradient>
+    <radialGradient id="ball" cx=".27" cy=".2" r=".9"><stop stop-color="#ffaaa2"/><stop offset=".4" stop-color="#ee2030"/><stop offset="1" stop-color="#ae0919"/></radialGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h720v780H0z"/>
+  <path d="M0 580 720 430M0 680l720-150M180 780 80 560M460 780 320 510M710 750 560 460" stroke="#bdb7a7" stroke-opacity=".22"/>
+  <ellipse cx="385" cy="647" rx="230" ry="38" fill="#6a6048" opacity=".19" filter="url(#shadow)"/>
+  <path d="M346 568V300a107 107 0 0 1 214 0v268l-35 15-35-273a42 42 0 0 0-84 0v258Z" fill="#ae1020"/>
+  <path d="M314 583V315a107 107 0 0 1 214 0v268h-66V315a41 41 0 0 0-82 0v268Z" fill="url(#red)"/>
+  <path d="M164 605V384a91 91 0 0 1 182 0v221l-30 13-28-224a34 34 0 0 0-68 0v211Z" fill="#b9b09b"/>
+  <path d="M136 618V397a91 91 0 0 1 182 0v221h-58V397a33 33 0 0 0-66 0v221Z" fill="url(#stone)"/>
+  <path d="m91 610 242-60 282 77-243 63Z" fill="#faf7ef"/>
+  <path d="m372 690 243-63v72l-243 63Z" fill="url(#side)"/>
+  <path d="M91 610v72l281 80v-72Z" fill="url(#stone)"/>
+  <path d="m451 572 72-20 70 20v55l-71 20-71-20Z" fill="#c2b99f"/>
+  <ellipse cx="522" cy="572" rx="71" ry="22" fill="#f7f2e1"/>
+  <path d="M451 589c41 24 103 24 142 0M451 606c41 24 103 24 142 0" stroke="#e7dfc9"/>
+  <circle cx="368" cy="565" r="42" fill="url(#ball)"/>
+  <path d="M0 738c160-26 270 38 388 12 119-26 221-25 332-9v39H0Z" fill="#e6e0d2" opacity=".4"/>
+</svg>

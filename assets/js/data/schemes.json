@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "recurring-deposit",
+      "name": "Recurring Deposit",
+      "heading": "Recurring Deposit Schemes",
+      "icon": "recurring-deposit.svg",
+      "description": "Individual Recurring Deposit schemes will appear after approved information is supplied.",
+      "subcategories": [],
+      "schemes": [
+        { "id": "rd-pending", "status": "pending", "subcategory": null, "name": null, "description": null, "details": [], "documents": [], "approval": null }
+      ]
+    },
+    {
+      "id": "fixed-deposit",
+      "name": "Fixed Deposit",
+      "heading": "Fixed Deposit Schemes",
+      "icon": "fixed-deposit.svg",
+      "description": "Individual Fixed Deposit schemes will appear after approved information is supplied.",
+      "subcategories": [],
+      "schemes": [
+        { "id": "fd-pending", "status": "pending", "subcategory": null, "name": null, "description": null, "details": [], "documents": [], "approval": null }
+      ]
+    },
+    {
+      "id": "loans",
+      "name": "Loans",
+      "heading": "Loan Schemes",
+      "icon": "loans.svg",
+      "description": "Two Wheeler, Four Wheeler and Asset Loan scheme information will appear after official approval.",
+      "subcategories": [
+        { "id": "two-wheeler", "name": "Two Wheeler" },
+        { "id": "four-wheeler", "name": "Four Wheeler" },
+        { "id": "assets", "name": "Assets" }
+      ],
+      "schemes": [
+        { "id": "two-wheeler-pending", "status": "pending", "subcategory": "two-wheeler", "name": null, "description": null, "details": [], "documents": [], "approval": null },
+        { "id": "four-wheeler-pending", "status": "pending", "subcategory": "four-wheeler", "name": null, "description": null, "details": [], "documents": [], "approval": null },
+        { "id": "assets-pending", "status": "pending", "subcategory": "assets", "name": null, "description": null, "details": [], "documents": [], "approval": null }
+      ]
+    },
+    {
+      "id": "secured-loans",
+      "name": "Secured Loans",
+      "heading": "Secured Loan Schemes",
+      "icon": "secured-loans.svg",
+      "description": "Against Property and Gold scheme information will appear after official approval.",
+      "subcategories": [
+        { "id": "against-property", "name": "Against Property" },
+        { "id": "gold", "name": "Gold" }
+      ],
+      "schemes": [
+        { "id": "property-pending", "status": "pending", "subcategory": "against-property", "name": null, "description": null, "details": [], "documents": [], "approval": null },
+        { "id": "gold-pending", "status": "pending", "subcategory": "gold", "name": null, "description": null, "details": [], "documents": [], "approval": null }
+      ]
+    }
+  ]
+}

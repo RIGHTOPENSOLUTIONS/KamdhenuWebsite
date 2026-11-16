@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="780" viewBox="0 0 720 780" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="80" x2="630" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#f3f0e7"/><stop offset="1" stop-color="#d6d0c1"/></linearGradient>
+    <linearGradient id="red" x1="220" y1="260" x2="490" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#f44347"/><stop offset=".5" stop-color="#e30016"/><stop offset="1" stop-color="#a90013"/></linearGradient>
+    <linearGradient id="stone" x1="150" y1="330" x2="460" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf5"/><stop offset="1" stop-color="#cdc5b1"/></linearGradient>
+    <linearGradient id="side" x1="400" y1="580" x2="580" y2="740" gradientUnits="userSpaceOnUse"><stop stop-color="#bcb4a0"/><stop offset="1" stop-color="#a29b87"/></linearGradient>
+    <linearGradient id="warm" x1="450" y1="450" x2="550" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#e9d5a5"/><stop offset="1" stop-color="#ac9160"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h720v780H0z"/>
+  <path d="M0 580 720 430M0 680l720-150M180 780 80 560M460 780 320 510M710 750 560 460" stroke="#bdb7a7" stroke-opacity=".22"/>
+  <ellipse cx="382" cy="650" rx="230" ry="35" fill="#6a6048" opacity=".2" filter="url(#shadow)"/>
+  <path d="m93 598 251-58 283 77-252 65Z" fill="#faf7ef"/>
+  <path d="m375 682 252-65v79l-252 65Z" fill="url(#side)"/>
+  <path d="M93 598v79l282 84v-79Z" fill="url(#stone)"/>
+  <path d="m238 357 144-117 119 117v241l-34 18-229-18Z" fill="#b51022"/>
+  <path d="m205 373 144-117 119 117v243H205Z" fill="url(#red)"/>
+  <path d="M277 616V468a57 57 0 0 1 114 0v148Z" fill="#910c1b"/>
+  <path d="M294 616V473a40 40 0 0 1 80 0v143Z" fill="#d4ccba"/>
+  <path d="M205 373 349 256l119 117" stroke="#ff777c" stroke-opacity=".6"/>
+  <path d="m414 592 54-70h70l54 70-54 33h-70Z" fill="url(#warm)"/>
+  <path d="m414 592 54 33h70l54-33v39l-54 32h-70l-54-32Z" fill="#aa9061"/>
+  <path d="m414 592 54 33h70l54-33M468 522v103M538 522v103" stroke="#f7e6bc" stroke-opacity=".6"/>
+  <circle cx="178" cy="525" r="37" fill="url(#stone)"/>
+  <path d="M0 741c145-26 273 35 388 9 119-26 221-25 332-9v39H0Z" fill="#e6e0d2" opacity=".4"/>
+</svg>

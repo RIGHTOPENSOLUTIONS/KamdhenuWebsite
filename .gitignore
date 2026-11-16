@@ -1,0 +1,28 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.aws/
+
+# Private local working material (keep it outside the repository where possible)
+private/
+confidential/
+customer-data/
+unapproved-documents/
+
+# Generated dependencies, caches, and temporary files
+node_modules/
+.cache/
+*.log
+*.tmp
+*.bak
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
